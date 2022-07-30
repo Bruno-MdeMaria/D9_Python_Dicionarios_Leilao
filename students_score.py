@@ -9,7 +9,7 @@ student_scores = {
 student_grades = {}
 
 for student in student_scores:
-  score = student_scores[student]
+  score = student_scores[student]   # para poder comparar as notas é preciso fazer a variavel nota. 
   if score > 90:
     student_grades[student] = "Outstanding"
   elif score > 80 and  score < 91:
