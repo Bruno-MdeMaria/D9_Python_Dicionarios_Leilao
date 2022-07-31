@@ -18,10 +18,11 @@ parar = False
 while parar == False:
     nome= input("Qua o seu nome? \n")
     lance= input("Qual o seu lance? \n")
+    dict[nome] = lance     #ADIONANDO OS VALORES AO DICT :     NOME DO DICIONARIO[CHAVE] = RECEBE VALOR. FICANDO ASSIM:  DICT{ "NOME": VALOR,}
     continua = input("Mais alguém dara um lance? Digite 's' ou 'n' ").lower()
     if continua == "n":
         parar = True
     else: os.system("cls")
 
-
+print(dict)
 
